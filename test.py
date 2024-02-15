@@ -118,7 +118,7 @@ def play_and_record(channel, recording_lock, current_files, playback_lock):
 pygame.mixer.init()
 
 # Directory containing the audio files
-audio_files_dir = "C:\\Users\\manay\\Downloads\\mp3clips"
+audio_files_dir = "/home/pi/Desktop/art_proj/mp3clips"
 
 # List all files in the directory
 audio_files = os.listdir(audio_files_dir)
